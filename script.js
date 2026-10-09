@@ -31,3 +31,10 @@ pricebtn.addEventListener("click", function(){
     numtick.innerHTML = ticketnum.value + "$";
     total.innerHTML = eval(tick*ticketnum.value)+"$"
 })
+
+clearbtn.addEventListener("click", function(){
+    uname.innerHTML = "Ticket";
+    price.innerHTML = "0$";
+    numtick.innerHTML = "0$";
+    total.innerHTML = "0$";
+})
